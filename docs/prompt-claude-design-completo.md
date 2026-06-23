@@ -18,8 +18,8 @@ No inventes textos, eslóganes, precios ni datos de disponibilidad: todo lo que 
 3. `#6D6E71` — color secundario, uso minoritario (nunca debe competir con el naranja ni el blanco)
 
 **Datos de contacto reales:**
-- Email: info@costablanca.com.do
-- Web del proyecto: costablanca.com.do
+- Email (Tropicasa — la agencia que paga y comercializa la campaña, usar en TODO el material): tropicasa@gmail.com
+- Web del proyecto (para que la gente vea los detalles del proyecto): costablanca.com.do
 - Web de la constructora: vistana.com.do
 - Teléfono (Tropicasa): +1 (829) 344-7291
 
@@ -100,7 +100,7 @@ Voy a adjuntar estos archivos (con estos nombres exactos) como imágenes en esta
 - Imagen de fondo: `CB_MASTER.jpg`
 - Pie: logo Vistana Costa Blanca + costablanca.com.do + logo Tropicasa en chip blanco
 - Caption (fuera de la imagen): "Boca Chica vive un momento de transformación. Costa Blanca es el plan maestro que habilita ese cambio: residencias, comercios, hotel y áreas verdes en una misma visión. Solo quedan 24 unidades disponibles. Conoce más en el link de la bio."
-- CTA del caption: "Escríbenos a info@costablanca.com.do o visita costablanca.com.do"
+- CTA del caption: "Escríbenos a tropicasa@gmail.com o visita costablanca.com.do"
 
 ### Post 2 — Producto 2 habitaciones
 - Texto en la imagen: "Tu próximo hogar tiene vista al mar."
@@ -108,7 +108,7 @@ Voy a adjuntar estos archivos (con estos nombres exactos) como imágenes en esta
 - Imagen de fondo: `CB_2H_SALA.jpg` (alternativa lifestyle: `CB_2H_DORMITORIO_c.jpg`)
 - Pie: logo Vistana Costa Blanca + "Desde US$166,016" + logo Tropicasa en chip blanco
 - Caption: "Apartamentos de 2 habitaciones, 85 m², 2 baños, balcón con vista al mar. Solo 16 unidades disponibles dentro del plan maestro de Costa Blanca."
-- CTA del caption: email info@costablanca.com.do · teléfono +1 (829) 344-7291
+- CTA del caption: email tropicasa@gmail.com · teléfono +1 (829) 344-7291
 
 ### Post 3 — Producto 3 habitaciones
 - Texto en la imagen: "Espacio para toda la familia."
@@ -116,7 +116,7 @@ Voy a adjuntar estos archivos (con estos nombres exactos) como imágenes en esta
 - Imagen de fondo: `CB_3H_SALA.jpg` (alternativa: `CB_3H DORMITORIO.jpg`)
 - Pie: logo Vistana Costa Blanca + "Desde US$209,995" + logo Tropicasa en chip blanco
 - Caption: "Apartamentos de 3 habitaciones, 115 m², 2.5 baños. Ideales para familias que buscan más espacio sin salir de Boca Chica. Solo quedan 8 unidades."
-- CTA del caption: email info@costablanca.com.do · teléfono +1 (829) 344-7291
+- CTA del caption: email tropicasa@gmail.com · teléfono +1 (829) 344-7291
 
 ### Post 4 — Amenidades
 - Texto en la imagen: "Tu fin de semana, sin salir de casa."
@@ -124,7 +124,7 @@ Voy a adjuntar estos archivos (con estos nombres exactos) como imágenes en esta
 - Imagen de fondo: `CB_PISCINA_01.jpg`
 - Pie: logo Vistana Costa Blanca + logo Tropicasa en chip blanco
 - Caption: "Piscinas, parque central de 15,000 m², canchas deportivas y áreas sociales — una comunidad pensada para vivir, no solo para dormir."
-- CTA del caption: "Agenda tu visita: info@costablanca.com.do"
+- CTA del caption: "Agenda tu visita: tropicasa@gmail.com"
 
 ### Post 5 — Urgencia / escasez
 - Texto en la imagen: "Solo quedan 24 unidades."
@@ -132,7 +132,7 @@ Voy a adjuntar estos archivos (con estos nombres exactos) como imágenes en esta
 - Imagen de fondo: `CB_EDIFICIO.jpg`
 - Pie: logo Vistana Costa Blanca + web + logo Tropicasa en chip blanco
 - Caption: "De 144 unidades en venta, ya se reservó el 83%. Si estabas esperando el momento para invertir en Boca Chica, es ahora."
-- CTA del caption: email info@costablanca.com.do · teléfono +1 (829) 344-7291
+- CTA del caption: email tropicasa@gmail.com · teléfono +1 (829) 344-7291
 
 ---
 
@@ -146,7 +146,7 @@ Voy a adjuntar estos archivos (con estos nombres exactos) como imágenes en esta
 3. "Residencial, comercial, hotelero y áreas verdes — todo dentro de una misma visión." — Imagen: `CB_EDIFICIO.jpg`
 4. "Solo quedan 24 unidades disponibles — la mayoría en el Edificio D." — Imagen: `260306_COSTA BLANCA_Fachada_Frontal.png`
 5. "Costa Blanca te invita a redescubrir Boca Chica." — Imagen: `CB_PASEO.jpg`
-6. CTA: "Conversemos. Escríbenos." — Imagen: `CB_INGRESO.jpg` + email info@costablanca.com.do + web costablanca.com.do + teléfono +1 (829) 344-7291 + logo Tropicasa en chip blanco
+6. CTA: "Conversemos. Escríbenos." — Imagen: `CB_INGRESO.jpg` + email tropicasa@gmail.com + web costablanca.com.do + teléfono +1 (829) 344-7291 + logo Tropicasa en chip blanco
 
 ### Carrusel 2 — "Conoce tu apartamento" (tour de tipologías)
 1. "¿Cuál es tu Costa Blanca ideal?" — Imagen: `CB_EDIFICIO.jpg`
@@ -191,7 +191,7 @@ Voy a adjuntar estos archivos (con estos nombres exactos) como imágenes en esta
 - Sticker de Link → costablanca.com.do
 
 ### Historia 5 — CTA directo
-- Texto: "Conversemos." / Email visible: info@costablanca.com.do
+- Texto: "Conversemos." / Email visible: tropicasa@gmail.com
 - Imagen: `CB_INGRESO.jpg`
 - Sticker de Link → costablanca.com.do · teléfono +1 (829) 344-7291 · logo Tropicasa en chip blanco (esta es la historia de contacto directo, reforzar también la marca de la agencia)
 
