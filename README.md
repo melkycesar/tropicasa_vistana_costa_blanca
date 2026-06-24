@@ -4,14 +4,16 @@ Repositorio de contenidos, assets y documentación de la campaña publicitaria d
 
 ## Qué hay aquí
 
-Este repositorio centraliza todo lo necesario para producir las piezas de la campaña (valla de carretera, posts, carruseles e historias): la investigación de mercado, los textos exactos por pieza, el banco de imágenes/logos, y los prompts usados para generar diseños con IA.
+Este repositorio centraliza todo lo necesario para producir las piezas de la campaña (posts, carruseles e historias): la investigación de mercado, los textos exactos por pieza, el banco de imágenes/logos, y los prompts usados para generar diseños con IA.
+
+> La valla de carretera se produce fuera de este repositorio y fuera de cualquier herramienta de IA.
 
 ## Estructura
 
 ```
 docs/
 ├── costa-blanca-investigacion-y-conclusiones.html     # Documento maestro: investigación, diferenciadores y conclusiones (LEER PRIMERO)
-├── costa-blanca-contenido.html         # Textos exactos: 1 valla + 5 posts + 3 carruseles + 5 historias
+├── costa-blanca-contenido.html         # Textos exactos: 5 posts + 3 carruseles + 5 historias
 ├── costa-blanca-banco-imagenes.html    # Catálogo de todas las fotos, planos, zonificación y logos disponibles
 └── prompt-claude-design-completo.md    # Prompt autocontenido para generar diseños con Claude Design
 
@@ -55,10 +57,6 @@ Costa Blanca no es un edificio aislado: es un plan maestro de uso mixto de +600,
 ## Disponibilidad del inventario (corte 20/06/2026)
 
 144 unidades totales en edificios B, C y D → **24 disponibles (17%)** / 120 reservadas. Tipología 1H agotada. 2H: 16 disponibles desde US$166,016. 3H: 8 disponibles desde US$209,995. El Edificio D tiene el mayor inventario disponible.
-
-## Diseños ya aprobados
-
-- **Valla de carretera (12x8 pies):** archivo fuente editable en `assets/fotos/FOTO VALLA.psd`.
 
 ## Flujo de trabajo
 

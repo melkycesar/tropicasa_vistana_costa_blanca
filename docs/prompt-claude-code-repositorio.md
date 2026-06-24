@@ -44,7 +44,7 @@ Esto es una campaña publicitaria para **Costa Blanca / Vistana Costa Blanca**, 
 resositorio/  (o el nombre que tenga tu carpeta local)
 ├── docs/
 │   ├── costa-blanca-investigacion-y-conclusiones.html     ← documento maestro, léelo primero
-│   ├── costa-blanca-contenido.html         ← valla, posts, carruseles, historias (textos exactos)
+│   ├── costa-blanca-contenido.html         ← posts, carruseles, historias (textos exactos)
 │   ├── costa-blanca-banco-imagenes.html    ← catálogo de todas las imágenes/logos disponibles
 │   └── prompt-claude-design-completo.md    ← prompt usado para Claude Design
 └── assets/
@@ -76,8 +76,6 @@ resositorio/  (o el nombre que tenga tu carpeta local)
 **Tagline oficial de marca:** "Redescubre Boca Chica" / "Un destino legendario se transforma"
 
 **Disponibilidad real (corte 20/06/2026):** 144 unidades totales · 24 disponibles (17%) · 120 reservadas, en edificios B, C y D. Tipología 1H: agotada. 2H: 16 disponibles desde US$166,016. 3H: 8 disponibles desde US$209,995. El Edificio D es el de mayor disponibilidad.
-
-**Diseño ya aprobado:** la valla de carretera (12x8 pies) ya tiene diseño final aprobado, archivo fuente en `assets/fotos/FOTO VALLA.psd`. No la rediseñes desde cero — cualquier ajuste parte de ese archivo.
 
 ---
 

@@ -19,7 +19,7 @@ Documento vivo de banco de conocimiento para **Claude Design** (o cualquier otra
   - Teléfono: `+1 (829) 344-7291`
   - Web del proyecto: `costablanca.com.do`
 - **Tagline oficial:** "Redescubre Boca Chica" / "Un destino legendario se transforma".
-- **Valla de carretera:** diseño ya aprobado. Archivo fuente editable en `assets/fotos/FOTO VALLA.psd`. Cualquier ajuste futuro parte de ese PSD, no se rediseña desde cero.
+- **Valla de carretera:** fuera del alcance de este repositorio y de cualquier herramienta de IA — se produce de forma externa.
 - **Tipología 1H:** está agotada. No usar fotos `CB_1H_*` en piezas con llamado de venta directo — solo como referencia visual de diseño interior si es necesario.
 
 ## 2. Errores ya cometidos y corregidos (no repetir)
