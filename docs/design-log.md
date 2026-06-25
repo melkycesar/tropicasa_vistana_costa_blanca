@@ -1,40 +1,95 @@
-# Design Log — Costa Blanca / Vistana Costa Blanca
+# Design Log — Diseños Tropicasa Costa Blanca
 
-Documento vivo de banco de conocimiento para **Claude Design** (o cualquier otra IA de diseño que reciba este repositorio). Registra las preferencias de diseño acordadas con el cliente y los errores ya corregidos, para no repetirlos en sesiones futuras.
-
-**Antes de diseñar cualquier pieza, leer:** [`costa-blanca-investigacion-y-conclusiones.html`](costa-blanca-investigacion-y-conclusiones.html) (contexto del proyecto) y este documento (reglas de diseño y errores a evitar).
+Banco de conocimiento de diseño. Cualquier IA o diseñador que trabaje en estas piezas
+debe leer este archivo **antes** de empezar, junto con
+`docs/costa-blanca-investigacion-y-conclusiones.html` (reglas de marca) y
+`docs/costa-blanca-contenido.html` (textos oficiales / fuente de verdad para el copy).
 
 ---
 
-## 1. Reglas de diseño confirmadas
+## Reglas de diseño confirmadas
 
-- **Jerarquía de marca:** Costa Blanca / Vistana Costa Blanca es siempre la marca protagonista de la pieza. El logo de Tropicasa (agencia comercializadora) va en segundo plano, en un chip o barra blanca pequeña — nunca del mismo tamaño ni más prominente que el logo del proyecto.
-- **Logo de Tropicasa:** siempre sobre **fondo blanco**. Nunca colocarlo directo sobre una foto o render. Si la pieza tiene fondo de imagen, usar la variante blanca del logo o un chip/barra blanca debajo.
-- **Colores de Tropicasa** (en orden de proporción de uso):
-  1. `#EF6E21` — principal, usar en acentos/detalles, no para texto corrido.
-  2. Blanco — fondo obligatorio del logo de Tropicasa, color dominante de soporte.
-  3. `#6D6E71` — secundario, uso minoritario. Nunca debe competir con el naranja ni el blanco.
-- **Datos de contacto correctos (usar siempre estos, no otros):**
-  - Email: `tropicasa@gmail.com`
-  - Teléfono: `+1 (829) 344-7291`
-  - Web del proyecto: `costablanca.com.do`
-- **Tagline oficial:** "Redescubre Boca Chica" / "Un destino legendario se transforma".
-- **Valla de carretera:** fuera del alcance de este repositorio y de cualquier herramienta de IA — se produce de forma externa.
-- **Tipología 1H:** está agotada. No usar fotos `CB_1H_*` en piezas con llamado de venta directo — solo como referencia visual de diseño interior si es necesario.
+### Marca y logos
+- **Vistana Costa Blanca** es la marca protagonista (el proyecto). **Tropicasa** es la agencia
+  que comercializa: su logo va en un chip/pestaña blanca y **nunca** más grande que el de Vistana.
+- **Portada de los carruseles** (y piezas tipo portada): diseño *hero* — foto a sangre + claim.
+  El logo de **Vistana Costa Blanca en modo default (a color)** va dentro de una **pestaña blanca**
+  redondeada en la esquina superior izquierda (nunca el logo suelto sobre la foto).
+- **Logo de Tropicasa + chip web `CostaBlanca.COM.DO`**: solo en la **portada** y en la
+  **última página (contacto)** de cada carrusel. **No** se repiten en las páginas interiores.
+- **Header de las páginas interiores**: el logo es **Tropicasa** — versión *default* (a color)
+  sobre fondos claros, versión *blanca* sobre fondos de color. En la página de **contacto** el
+  header es **Vistana Costa Blanca**.
+- Existen dos versiones de cada logo (default a color / letras blancas). Elegir según el fondo.
+- Fuente oficial de logos: repositorio GitHub `melkycesar/tropicasa_vistana_costa_blanca`
+  (`assets/logos/...`). Usar de aquí en adelante los recursos del repo.
 
-## 2. Errores ya cometidos y corregidos (no repetir)
+### Color
+- **Naranja Tropicasa `#EF6E21`** = acento protagonista.
+- **Gris `#6D6E71`** = secundario (chip de marca, etiquetas sobre claro).
+- **No usar fondos grises**, ni siquiera claros (se eliminó el `#d6d7d7`). Fondos permitidos en
+  interiores: blanco, crema (`#f4f2ee`) y naranja.
+- En slides de **fondo claro (blanco/crema)**: los **títulos van en naranja** y las **etiquetas
+  (eyebrow) en gris**. Sobre fondo naranja, el título va en blanco.
+- **Banda decorativa naranja**: rectángulo que sube desde el borde inferior hasta ~1/3 de la
+  altura del slide, para dar variedad. Se coloca solo donde **no quede debajo de los textos**
+  (funciona en los layouts `feature` y `stat`; no en `split`, `plano` ni `contact`).
 
-| Error | Corrección | Contexto |
-|---|---|---|
-| Usar el email `info@costablanca.com.do` en CTAs | Usar siempre `tropicasa@gmail.com` — Tropicasa es quien paga y comercializa la campaña, no el desarrollador | Corregido en todo `costa-blanca-contenido.html` y `prompt-claude-design-completo.md` |
-| Textos con jerga técnica de urbanismo ("plan maestro de uso mixto que habilita el desarrollo del destino") | Simplificar a lenguaje publicitario directo, fácil de entender a la primera lectura | Carrusel 1, slide 2 — ver registro de cambios abajo |
-| Atribuir el respaldo institucional del plan maestro a Constructora Vistana | Separar claramente: el plan maestro lo respalda el Grupo Inicia/Estado; Constructora Vistana construye el producto residencial | Carrusel 3, slide 2 |
-| Preguntas o frases ambiguas en ganchos de carrusel ("¿Cuál es tu Costa Blanca ideal?") | El gancho debe decir explícitamente de qué trata la pieza (en este caso, elegir tipología de apartamento) | Carrusel 2, slide 1 |
+### Composición / layouts
+- **Las páginas interiores NO deben repetir el diseño de la portada.** Es mala práctica que todos
+  los slides luzcan iguales. Usar variedad de layouts: `split`, `feature`, `stat`, `plano`, `contact`.
+- Header (logo + contador) constante en todos los slides para que el carrusel se sienta una familia;
+  lo que cambia es la composición del cuerpo.
+- **Floor plans**: imagen grande y centrada, a ancho completo. La ficha de distribución
+  (m² · habitaciones · baños · disponibles) va **horizontal debajo** del plano, nunca a un lado
+  (no robarle ancho al plano).
+- El **nombre distintivo** del apartamento (**Apartamento 1H / 2H / 3H**) va como título del slide
+  de plano. No usar "Distribución" ni "Tipología" como encabezado.
+- En interiores los **títulos y textos van centrados**, **excepto** el layout de **dos columnas
+  (`feature`)**, que va **justificado a la izquierda**.
+- El **marco** decorativo de la portada: las líneas bajan hasta el **borde inferior de la foto**.
 
-## 3. Registro de cambios
+### Tipografía
+- Familia **Montserrat** en todo.
+- Las **cifras grandes** (stat: 83%, +20, etc.) usan peso **semibold (600)**, no extra-bold:
+  a la dueña de Tropicasa no le gustan las letras demasiado *bold* en tamaños grandes.
+- Textos de apoyo legibles para público mayor (subtítulos ~38px).
+- Usar siempre los **textos literales** del documento de contenidos del repo.
 
-Agregar una fila nueva cada vez que se apruebe o ajuste una decisión de diseño relevante (no es necesario registrar cada iteración menor, solo decisiones que otra IA debería conocer para no repetir el error o desconocer la preferencia).
+### Datos de contacto
+- Correo: **tropicasa@gmail.com** (sustituye a `info@costablanca.com.do`).
+- Web: **costablanca.com.do** · Tel: **+1 (829) 344-7291**.
 
-| Fecha | Pieza / archivo | Cambio | Motivo |
+---
+
+## Errores ya cometidos y corregidos (no repetir)
+
+- **Aplanar todos los slides al diseño de portada** (todos iguales). → Se restauró el sistema de
+  layouts variados; la portada es la única *hero*.
+- **Repetir el logo de Tropicasa y el chip web en las páginas interiores.** → Se movieron a la
+  portada y la última página únicamente.
+- **Parafrasear el copy / convertirlo en cifra** (p. ej. el slide 3 del Carrusel 1 se reescribió
+  como "US$530M" en vez de la frase del documento). → Usar siempre el texto **literal** del
+  documento de contenidos.
+- **Centrar el layout de dos columnas (`feature`).** → Ese layout va justificado a la izquierda.
+- **Usar fondos grises** (incluido el gris claro `#d6d7d7`). → Eliminados.
+- **Poner el logo suelto sobre la foto** en la portada. → Va dentro de la pestaña blanca.
+
+---
+
+## Registro de cambios
+
+| Fecha | Pieza / archivo | Qué cambió | Por qué |
 |---|---|---|---|
-| 2026-06-24 | `costa-blanca-contenido.html` (carruseles 1, 2 y 3) | Se simplificó el lenguaje técnico, se corrigió la atribución del respaldo institucional vs. la constructora, y se aclaró el gancho del carrusel 2 | Los textos originales eran difíciles de interpretar para el público general |
+| 2026-06-24 | 03 Carruseles / CBInterior | Las páginas interiores dejan de copiar la portada; se crean layouts variados (split, feature, stat, plano, contact). | Evitar que todos los slides luzcan iguales (mala práctica). |
+| 2026-06-24 | 03 Carruseles / CBInterior | Logo Tropicasa + chip web solo en portada y última página; se quitan de los interiores. | Reducir repetición y ganar espacio para el plano y la información. |
+| 2026-06-24 | CBInterior (plano) | La ficha de distribución pasa a horizontal debajo del plano. | Que el plano crezca y no le roben ancho. |
+| 2026-06-24 | Todas las piezas | Correo `info@costablanca.com.do` → `tropicasa@gmail.com`. | Indicación del cliente. |
+| 2026-06-24 | CBInterior (plano) | El encabezado del plano usa el nombre distintivo (Apartamento 1H/2H/3H); se quita "Distribución" y "Tipología". | El nombre del tipo es la referencia real. |
+| 2026-06-24 | CBSlide (portada) | Logo Vistana Costa Blanca en pestaña blanca (modo color) en la esquina superior izquierda; las líneas del marco bajan hasta el borde de la foto. | Alinear con la referencia de marca. |
+| 2026-06-24 | CBInterior | Fondos negros → grises y luego eliminados por completo; nuevo fondo de variedad es la banda naranja inferior. | El cliente no quiere fondos grises. |
+| 2026-06-24 | CBInterior (stat) | Cifras grandes a peso semibold (600). | A la dueña no le gustan las letras demasiado bold en tamaños grandes. |
+| 2026-06-24 | CBInterior | Subtítulos y textos de apoyo agrandados (~38px). | Legibilidad para clientes de mayor edad. |
+| 2026-06-24 | CBInterior | Títulos y textos centrados; el layout de dos columnas (feature) se mantiene a la izquierda. | Indicación de composición del cliente. |
+| 2026-06-24 | CBInterior | Fondo claro: títulos en naranja y etiquetas en gris; banda decorativa naranja inferior (~1/3) en feature/stat. | Reglas nuevas de color y variedad. |
+| 2026-06-24 | Logos | Se adoptan los logos de Vistana Costa Blanca del repositorio GitHub como fuente oficial. | Centralizar recursos de marca. |
