@@ -60,6 +60,26 @@ debe leer este archivo **antes** de empezar, junto con
 - Correo: **tropicasa@gmail.com** (sustituye a `info@costablanca.com.do`).
 - Web: **costablanca.com.do** · Tel: **+1 (829) 344-7291**.
 
+### Contenido / copy — feedback directo de Loli (dueña de Tropicasa)
+- **Carruseles cortos:** entre **3 y 4 slides**, nunca más de 4. Los clientes de bienes raíces no
+  leen mucho ni completan carruseles largos.
+- **Las amenidades venden más que el discurso de "ciudad/plan maestro".** Loli pidió que el
+  contenido se dirija **primordialmente** a destacar amenidades concretas, porque es lo que
+  más motiva a los clientes:
+  - Piscina
+  - Cancha de tenis
+  - Cancha de baloncesto
+  - Proyecto cerrado (seguridad/acceso controlado)
+  - Áreas recreativas para niños
+  - Estar a 10 minutos de la playa
+- **Nota de tensión con la estrategia original:** la investigación inicial (ver
+  `costa-blanca-investigacion-y-conclusiones.html`, sección "Diferenciador") recomendaba NO competir
+  en amenidades porque ahí Costa Blanca pierde frente a Oceanic/Vista Marina, y enfocarse en escala
+  de ciudad y respaldo institucional. El feedback de Loli, como dueña del cliente que paga la
+  campaña, tiene prioridad sobre esa hipótesis estratégica: el copy debe liderar con amenidades
+  concretas y mantener los carruseles cortos (3–4 slides). El mensaje de "ciudad/plan maestro" puede
+  seguir usándose, pero como apoyo secundario, no como gancho principal.
+
 ---
 
 ## Errores ya cometidos y corregidos (no repetir)
@@ -93,3 +113,4 @@ debe leer este archivo **antes** de empezar, junto con
 | 2026-06-24 | CBInterior | Títulos y textos centrados; el layout de dos columnas (feature) se mantiene a la izquierda. | Indicación de composición del cliente. |
 | 2026-06-24 | CBInterior | Fondo claro: títulos en naranja y etiquetas en gris; banda decorativa naranja inferior (~1/3) en feature/stat. | Reglas nuevas de color y variedad. |
 | 2026-06-24 | Logos | Se adoptan los logos de Vistana Costa Blanca del repositorio GitHub como fuente oficial. | Centralizar recursos de marca. |
+| 2026-06-25 | Estrategia de contenido (todos los carruseles) | Carruseles deben tener 3–4 slides máximo (nunca más); el copy debe destacar amenidades concretas (piscina, cancha de tenis, cancha de baloncesto, proyecto cerrado, áreas para niños, 10 min de la playa) como gancho principal. | Feedback directo de Loli (dueña de Tropicasa) tras revisar los carruseles y posts: los clientes de bienes raíces no leen mucho y responden mejor a amenidades concretas que al discurso de "ciudad/plan maestro". |
